@@ -27,7 +27,7 @@ class Card extends Component {
           {' '}
           {cardName}
         </p>
-        <img src={ cardImage } alt={ cardName } />
+        <img data-testid="image-card" src={ cardImage } alt={ cardName } />
         <p data-testid="description-card">
           descricao:
           {' '}
